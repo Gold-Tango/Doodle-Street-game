@@ -62,7 +62,7 @@ function update() {
     //doodle
     doodler.x += velocityX;
     requestAnimationFrame(update);
-    context.drawImage(doodler.img, doodler.x, doodler.y, doodler.with, doodler.height);
+    context.drawImage(doodler.img, doodler.x, doodler.y, doodler.width, doodler.height);
 
 }
 
@@ -79,4 +79,4 @@ function moveDoodle(e) {
     }
 }
 
-update();
+
